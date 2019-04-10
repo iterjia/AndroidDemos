@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Android-Js</title>
+	<script>
+		function callJs() {
+			alert("call js method ");
+		}
+		function callNative() {
+			test.callNative();
+		}
+		function handleLoad() {
+			callNative();
+		}
+	</script>
+</head>
+
+<body onload="handleLoad()">
+
+Hello World!
+
+</body>
+</html>

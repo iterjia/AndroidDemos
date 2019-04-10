@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HandlerDemo</string>
+    <string name="hello">Hello</string>
+    <string name="btn_text1">Click to change text</string>
+</resources>
